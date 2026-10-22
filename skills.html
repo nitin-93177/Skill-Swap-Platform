@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skill swap platform</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>   
+<header>
+<nav>
+  <a href="index.html" class="logo">Skill Swap</a>
+   <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="addskill.html">Add Skill</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">contact</a></li>
+   </ul>
+</nav>
+</header> 
+
+<main>
+      <section class="skills-section">
+        <h1>Available Skills</h1>
+        <p>Explore different skills shared by students and request a skill swap</p>
+        <input type="text"
+        class="search" 
+        placeholder="Search Skills...">
+
+        <select id="categoryFilter">
+    <option value="All">All Categories</option>
+    <option value="Web Development">Web Development</option>
+    <option value="Programming">Programming</option>
+    <option value="Design">Design</option>
+</select>
+
+<h3 id="skillCount">Total Skills:0</h3>
+
+<button id="themeBtn">🌙 Dark Mode</button>
+<select id="sortSkills">
+    <option value="default">Sort Skills</option>
+    <option value="az">A → Z</option>
+    <option value="za">Z → A</option>
+</select>
+
+<div class="skills-container" id="skillsContainer">
+
+ <div class="skill-card">
+    <h2>🌐 HTML</h2>
+    <p><strong>Shared By:</strong> Rahul</p>
+    <p><strong>Category:</strong> Web Development</p>
+    <p><strong>Level:</strong> Beginner</p>
+    <button class="swap-btn">Request Swap</button>
+    <button class="edit-btn">Edit</button>
+    <button class="fav-btn">⭐ Favorite</button>
+    <button class="delete-btn">Delete</button>
+</div>
+
+<div class="skill-card">
+    <h2>🎨 CSS</h2>
+    <p><strong>Shared By:</strong> Aman</p>
+    <p><strong>Category:</strong> Web Development</p>
+    <p><strong>Level:</strong> Intermediate</p>
+    <button class="swap-btn">Request Swap</button>
+    <button class="edit-btn">Edit</button>
+    <button class="fav-btn">⭐ Favorite</button>
+    <button class="delete-btn">Delete</button>
+</div>
+
+<div class="skill-card">
+    <h2>JavaScript</h2>
+    <p><strong>Shared By:</strong> Priya</p>
+    <p><strong>Category:</strong> Web Development</p>
+    <p><strong>Level:</strong> Advanced</p>
+    <button class="swap-btn">Request Swap</button>
+    <button class="edit-btn">Edit</button>
+    <button class="fav-btn">⭐ Favorite</button>
+    <button class="delete-btn">Delete</button>
+</div>
+
+<div class="skill-card">
+    <h2>🐍 Python</h2>
+    <p><strong>Shared By:</strong> Neha</p>
+    <p><strong>Category:</strong> Programming</p>
+    <p><strong>Level:</strong> Intermediate</p>
+    <button class="swap-btn">Request Swap</button>
+    <button class="edit-btn">Edit</button>
+    <button class="fav-btn">⭐ Favorite</button>
+    <button class="delete-btn">Delete</button>
+</div>
+
+<div class="skill-card">
+    <h2>☕ Java</h2>
+    <p><strong>Shared By:</strong> Rohit</p>
+    <p><strong>Category:</strong> Programming</p>
+    <p><strong>Level:</strong> Advanced</p>
+    <button class="swap-btn">Request Swap</button>
+    <button class="edit-btn">Edit</button>
+    <button class="fav-btn">⭐ Favorite</button>
+    <button class="delete-btn">Delete</button>
+</div>
+
+<div class="skill-card">
+    <h2>UI/UXDesign</h2>
+    <p><strong>Shared By:</strong> Karan</p>
+    <p><strong>Category:</strong> Design</p>
+    <p><strong>Level:</strong> Beginner</p>
+    <button class="swap-btn">Request Swap</button>
+    <button class="edit-btn">Edit</button>
+    <button class="fav-btn">⭐ Favorite</button>
+    <button class="delete-btn">Delete</button>
+</div>
+         </div>
+      </section>   
+</main>
+<footer>
+    <p>&copy;2026 Skill Swap.All Rights Reserved</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html> 
